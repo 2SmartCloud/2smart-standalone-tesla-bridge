@@ -1,0 +1,59 @@
+{
+    "response": [
+        {
+            "id": 12345678901234567,
+            "vehicle_id": 1234567890,
+            "vin": "5YJSA11111111111",
+            "display_name": "Nikola 2.0",
+            "option_codes": "AD15,AF02,AH00,APF0,APH2,APPA,AU00,BCMB,BP00,BR00,BS00,BTX4,CC02,CDM0,CH05,COUS,CW02,DRLH,DSH7,DV4W,FG02,FR01,GLFR,HC00,HP00,IDBO,INBPB,IX01,LP01,LT3B,MDLX,ME02,MI02,PF00,PI01,PK00,PMBL,QLPB,RCX0,RENA,RFPX,S02B,SP00,SR04,ST02,SU01,TIC4,TM00,TP03,TR01,TRA1,TW01,UM01,USSB,UTAB,WT20,X001,X003,X007,X011,X014,X021,X025,X026,X028,X031,X037,X040,X042,YFFC,SC05",
+            "color": null,
+            "tokens": [
+                "abcdef1234567890",
+                "1234567890abcdef"
+            ],
+            "state": "online",
+            "in_service": false,
+            "id_s": "12345678901234567",
+            "calendar_enabled": true,
+            "backseat_token": null,
+            "backseat_token_updated_at": null
+        },
+        {
+            "id": 12045078901234567,
+            "vehicle_id": 1274387890,
+            "vin": "5YJSA22222222222",
+            "display_name": "Nikola 3.0",
+            "option_codes": "MDLS,RENA,AF02,APF1,APH2,APPB,AU01,BC0R,BP00,BR00,BS00,CDM0,CH05,PBCW,CW00,DCF0,DRLH,DSH7,DV4W,FG02,FR04,HP00,IDBA,IX01,LP01,ME02,MI01,PF01,PI01,PK00,PS01,PX00,PX4D,QTVB,RFP2,SC01,SP00,SR01,SU01,TM00,TP03,TR00,UTAB,WTAS,X001,X003,X007,X011,X013,X021,X024,X027,X028,X031,X037,X040,X044,YFFC,COUS",
+            "color": null,
+            "tokens": [
+                "cdefab1234567890",
+                "1245863970abcdef"
+            ],
+            "state": "online",
+            "in_service": false,
+            "id_s": "12045078901234567",
+            "calendar_enabled": true,
+            "backseat_token": null,
+            "backseat_token_updated_at": null
+        },
+        {
+            "id": 12041078101211167,
+            "vehicle_id": 1274387777,
+            "vin": "5YJSA33333333333",
+            "display_name": "Nikola 4.0",
+            "option_codes": "AD15,AF02,AH00,APF0,APH2,APPA,AU00,BCMB,BP00,BR00,BS00,BTX4,CC02,CDM0,CH05,COUS,CW02,DRLH,DSH7,DV4W,FG02,FR01,GLFR,HC00,HP00,IDBO,INBPB,IX01,LP01,LT3B,MDLX,ME02,MI02,PF00,PI01,PK00,PMBL,QLPB,RCX0,RENA,RFPX,S02B,SP00,SR04,ST02,SU01,TIC4,TM00,TP03,TR01,TRA1,TW01,UM01,USSB,UTAB,WT20,X001,X003,X007,X011,X014,X021,X025,X026,X028,X031,X037,X040,X042,YFFC,SC05",
+            "color": null,
+            "tokens": [
+                "cdefab2345617809",
+                "124839760abcdef"
+            ],
+            "state": "online",
+            "in_service": false,
+            "id_s": "12041078101211167",
+            "calendar_enabled": true,
+            "backseat_token": null,
+            "backseat_token_updated_at": null
+        }
+    ],
+    "count": 3
+}

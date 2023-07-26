@@ -1,0 +1,23 @@
+FROM node:12.18.3-alpine
+
+RUN apk update && apk upgrade && \
+    apk add --no-cache tzdata git
+
+WORKDIR /app
+
+COPY package.json package.json
+COPY app.js app.js
+COPY etc/ etc/
+COPY lib/ lib/
+COPY tests/ tests/
+COPY start_dev.sh start_dev.sh
+COPY index.js index.js
+
+ENV MODE development
+# test server port
+ENV PORT 8000
+
+RUN npm i
+RUN chmod +x ./start_dev.sh
+
+ENTRYPOINT [ "./start_dev.sh" ]

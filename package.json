@@ -1,0 +1,52 @@
+{
+    "name": "tesla-bridge",
+    "version": "1.0.0",
+    "description": "Bridge for integration with Tesla API",
+    "main": "app.js",
+    "scripts": {
+        "start": "node index.js",
+        "test:lint": "eslint tests/ lib/ app.js index.js --ext js",
+        "test-server": "node tests/server/index.js",
+        "test": "jest --runInBand --forceExit",
+        "test:coverage": "npm run test -- --coverage"
+    },
+    "pre-commit": [
+        "test:lint"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:2SmartCloud/2smart-standalone-tesla-bridge.git"
+    },
+    "keywords": [
+        "bridge",
+        "tesla"
+    ],
+    "author": "2Smart",
+    "dependencies": {
+        "homie-sdk": "github:2SmartCloud/2smart-standalone-homie-sdk",
+        "jsonpointer": "^4.1.0",
+        "node-fetch": "^2.6.0"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.7.0",
+        "eslint-config-webbylab": "^5.4.1",
+        "eslint-plugin-fetch": "0.0.1",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-jest": "^23.20.0",
+        "eslint-plugin-more": "^1.0.0",
+        "eslint-plugin-no-require-lodash": "^1.1.0",
+        "eslint-plugin-prefer-spread": "^1.0.3",
+        "eslint-plugin-react": "^7.20.6",
+        "eslint-plugin-security": "^1.4.0",
+        "jest": "^24.8.0",
+        "node-request-interceptor": "^0.5.1",
+        "pre-commit": "^1.2.2"
+    },
+    "jest": {
+        "verbose": true,
+        "collectCoverageFrom": [
+            "**/lib/**/*.js"
+        ]
+    }
+}
